@@ -1,0 +1,26 @@
+slot-attention-research/
+├── README.md
+├── requirements.txt
+├── notebooks/          # Colabノートブック置き場
+│   ├── 01_slot_attention_clevr.ipynb
+│   ├── 02_dinosaur_movi.ipynb
+│   └── ...
+├── src/                # 自分で書くコード
+│   ├── models/
+│   │   ├── slot_attention.py
+│   │   ├── encoder.py
+│   │   ├── decoder.py
+│   │   └── predictor.py
+│   ├── data/
+│   │   ├── clevr_dataset.py
+│   │   └── movi_dataset.py
+│   ├── utils/
+│   │   ├── visualization.py
+│   │   └── metrics.py
+│   └── train.py
+├── configs/            # 実験設定ファイル
+│   └── default.yaml
+├── experiments/        # 実験ログ・結果の保存先
+│   └── .gitkeep
+└── references/         # 参考論文メモ
+    └── paper_notes.md
